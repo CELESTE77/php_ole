@@ -1,0 +1,32 @@
+{
+    "name": "thoroc/php_ole",
+    "type": "library",
+    "description": "Powerful library to write excel files",
+    "keywords": ["excel", "spreadsheet", "document", "xls", "writer"],
+    "homepage": "https://github.com/thoroc/php_ole",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thoroc/php_ole.git"
+        }
+    ],
+    "license": "LGPL v2.1",
+    "authors": [
+        {
+            "name": "Johann Hanne",
+            "email": "jonny@1409.org",
+            "homepage": "http://www.bettina-attack.de/jonny/view.php/projects/php_ole/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": { },
+        "files": [
+            "class.ole.php",
+            "class.ole_pps_dir.php",
+            "class.ole_pps_file.php",
+            "class.ole_pps.php",
+            "class.ole_pps_root.php"
+        ]
+    }
+}
